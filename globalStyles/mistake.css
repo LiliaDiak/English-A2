@@ -1,0 +1,11 @@
+.li__mistake{
+    cursor: pointer;
+    margin-bottom: 20px;
+    line-height: 35px;
+    list-style: circle;
+}
+
+.mistake__wrapper{
+    padding: 30px 80px;
+    max-width: 1300px;
+}

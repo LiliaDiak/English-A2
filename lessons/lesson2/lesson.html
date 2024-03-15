@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../globalStyles/quiz.css">
+  <link rel="stylesheet" href="../../globalStyles/grammar.css">
+  <link rel="stylesheet" href="../../globalStyles/wordSlider.css">
+  <link rel="stylesheet" href="../../globalStyles/globalStyles.css">
+  <link rel="stylesheet" href="../../globalStyles/video.css">
+  <link rel="stylesheet" href="../../globalStyles/options.css">
+  <link rel="stylesheet" href="../../globalStyles/speaking.css">
+  <link rel="stylesheet" href="../../globalStyles/reading.css">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <title>Lesson 2</title>
+</head>
+
+<body>
+  <div class="container">
+    <section class="words__card">
+      <div class="wrap">
+      </div>
+    </section>
+
+    <section class="grammar">
+      <h3>Grammar</h3>
+      <div class="grammar__images">
+      </div>
+    </section>
+
+
+
+    <section class="ward__wall">
+      <div class="practice">
+        <h3>Practice 1</h3>
+       <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/041f7d5cca204182b3dcbac646ceffcd?themeId=41&templateId=5&fontStackId=0" width="1000" height="500" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+
+
+    <section class="ward__wall">
+      <div class="practice">
+        <h3>Practice 2</h3>
+        <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/31425256c80544a984da5639f38e32de?themeId=3&templateId=5&fontStackId=0" width="1000" height="500" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="practice">
+      <h3>Practice 3</h3>
+      <div class="quiz-container">
+        <div class="quiz-over-modal">
+          <div class="content">
+            <h1>Good job !</h1>
+            <p>
+              You answered <span id="correct-answer"></span> out of
+              <span id="number-of-all-questions-2"></span> questions correctly
+            </p>
+            <button id="btn-try-again">I am cool</button>
+          </div>
+        </div>
+        <div class="quiz-container">
+          <div class="question-number">
+            <h3>
+              Question
+              <span id="number-of-question"></span>
+              of
+              <span id="number-of-all-questions"></span>
+            </h3>
+          </div>
+          <div id="question"></div>
+          <div class="options">
+            <div data-id="0" class="option option1"></div>
+            <div data-id="1" class="option option2"></div>
+            <!-- <div data-id="2" class="option option3"></div> -->
+          </div>
+          <div class="button">
+            <button id="btn-next">Next question</button>
+          </div>
+          <div id="answers-tracker"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ward__wall">
+      <div class="practice">
+        <h3>Practice 4</h3>
+       <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/1417b3e2f58b47c6a259bee6aac3e2fe?themeId=1&templateId=5&fontStackId=0" width="1000" height="500" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="Reading">
+      <h3>Reading</h3>
+      <div class="reading__container">
+        <div class="reading__wrapper">
+          <h3>What do you do with your free time?</h3>
+          <p class="reading__text">
+            I’m almost 19 years old, and I finished my first year of university. I’m currently on holiday, and I have a lot of free time. Having free time is nice, but the problem is that when you are a student, you never have money. And when you have a lot of free time, but you don’t have much money, it can get boring. <br><br>
+
+            Every morning I go to the gym, and I read in the afternoons. But I still have a lot of free time. Going to the gym takes me about two hours, including the road time and the post-gym shower. And I usually read for one hour. Another activity that I do is watch films. I study history, and I love historical documentaries. I learn a lot from them. I watch documentaries for one and a half hours four or five times a week. <br><br>
+
+            But those activities are a small part of my day. When I’m not at the gym or reading, I get bored, and I often play video games for hours. I enjoy playing video games, but I don’t think it’s a productive activity. When I play for a long time, I feel bad. I’d like to find more productive activities to do, but it isn’t easy. I live in a small town, and there aren’t many things to do. <br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  <section class="speaking">
+      <h3>Speaking</h3>
+      <ol class="speaking__wrapper"></ol>
+    </section>
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="../../slick.min.js"></script>
+  <script src="./scripts/wordsSlider.js"></script>
+  <script src="./scripts/practice.js"></script>
+  <script src="./scripts/options2.js"></script>
+  <script src="./scripts/grammar.js"></script>
+  <script src="./scripts/speaking.js"></script>
+  <script src="./scripts/quiz.js"></script>
+</body>
+
+</html>

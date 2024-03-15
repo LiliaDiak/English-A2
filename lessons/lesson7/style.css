@@ -1,0 +1,72 @@
+.video__container {
+gap:20px
+}
+.practice3__form .practice__text{
+    justify-content: space-between;
+}
+
+.li__mistake{
+    display: inline;
+}
+
+.mistake__list{
+    line-height: 45px;
+    font-family: cursive;
+}
+
+.grammar__center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.practice__text2 {
+    line-height: 45px;
+    display: inline;
+}
+
+.practice__wrapper2 {
+    padding: 36px 54px;
+    width: 1200px;
+}
+
+
+.practice__button {
+    margin-left: 787px;
+}
+
+.practice1__form p{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.practice1__select{
+    width: 70px;
+}
+
+
+.practice__wrapper {
+
+    width: 1200px;
+}
+
+.grammar{
+    margin-top: 0;
+}
+/* listening site */
+.listening__site--button{
+    font-size: 100px;
+    padding: 24px 83px;
+    border-radius: 45px;
+    border: none;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.listening__site--button:hover{
+    background-color: rgb(209, 201, 234);
+}
+
+

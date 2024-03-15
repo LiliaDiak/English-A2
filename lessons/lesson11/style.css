@@ -1,0 +1,44 @@
+.video__container {
+gap:20px
+}
+.practice3__form .practice__text{
+    justify-content: space-between;
+}
+
+.li__mistake{
+    display: inline;
+}
+
+.mistake__list{
+    line-height: 45px;
+    font-family: cursive;
+}
+
+.grammar__center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+
+.practice__button {
+    margin-left: 980px;
+}
+
+
+.practice__wrapper {
+
+    width: 1200px;
+}
+
+
+.practice__form p{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.addition{
+    margin-top: 100px;
+}
